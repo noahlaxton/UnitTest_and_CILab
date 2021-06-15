@@ -1,0 +1,4 @@
+# Created at 2021-06-15T12:51:58.072
+Boot Manifest-JAR contains absolute paths in classpath 'F:\Bellevue College\CS 410\UnitTest_and_CILab\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
