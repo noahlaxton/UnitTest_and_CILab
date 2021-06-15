@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CILabTest" time="0.078" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CILabTest" time="0.155" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Noah Laxton\AppData\Local\Temp\surefire11168638913725039503\surefirebooter1382919991865959371.jar C:\Users\Noah Laxton\AppData\Local\Temp\surefire11168638913725039503 2021-06-15T12-51-53_858-jvmRun1 surefire10906182829251129537tmp surefire_011008136855958013246tmp"/>
+    <property name="sun.java.command" value="C:\Users\Noah Laxton\AppData\Local\Temp\surefire5603443575634537954\surefirebooter8687651039577174788.jar C:\Users\Noah Laxton\AppData\Local\Temp\surefire5603443575634537954 2021-06-15T15-08-38_132-jvmRun1 surefire3634910650261670484tmp surefire_010615318103070486946tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="F:\Bellevue College\CS 410\UnitTest_and_CILab\target\test-classes;F:\Bellevue College\CS 410\UnitTest_and_CILab\target\classes;C:\Users\Noah Laxton\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Noah Laxton\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Noah Laxton\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Noah Laxton\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Noah Laxton\AppData\Local\Temp\surefire11168638913725039503\surefirebooter1382919991865959371.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Noah Laxton\AppData\Local\Temp\surefire5603443575634537954\surefirebooter8687651039577174788.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="13.0.1+9"/>
@@ -56,14 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="detectCapitalUseTest1" classname="CILabTest" time="0.045">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Not yet implemented
-	at CILabTest.detectCapitalUseTest1(CILabTest.java:23)
-]]></failure>
-  </testcase>
-  <testcase name="detectCapitalUseTest2" classname="CILabTest" time="0.003">
-    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Not yet implemented
-	at CILabTest.detectCapitalUseTest2(CILabTest.java:28)
-]]></failure>
-  </testcase>
+  <testcase name="detectCapitalUseTest1" classname="CILabTest" time="0.102"/>
+  <testcase name="detectCapitalUseTest2" classname="CILabTest" time="0.003"/>
+  <testcase name="detectCapitalUserTest3" classname="CILabTest" time="0.003"/>
 </testsuite>
